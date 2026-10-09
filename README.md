@@ -56,7 +56,7 @@ Currently over 1000 games are integrated including:
 
 ## Installation
 
-Stable Retro supports Python 3.10 through 3.14.
+Stable Retro supports Python 3.11 through 3.14.
 
 ```
 pip3 install stable-retro
@@ -145,7 +145,7 @@ Platforms:
 - Linux (manylinux1). Ubuntu 24.04 is recommended
 
 Python:
-- Python 3.10 through 3.14
+- Python 3.11 through 3.14
 
 CPU with `SSE3` or better
 
