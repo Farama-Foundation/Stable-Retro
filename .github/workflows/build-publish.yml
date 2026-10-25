@@ -17,26 +17,35 @@ on:
 
 jobs:
   build_wheels:
-    name: Build wheels on ${{ matrix.os }}
+    name: Build wheels on ${{ matrix.os }} (${{ matrix.arch }})
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest]
+        include:
+          - os: ubuntu-latest
+            arch: x86_64
+            artifact: wheels-linux-x86_64
+          - os: ubuntu-latest
+            arch: aarch64
+            artifact: wheels-linux-aarch64
+          - os: macos-latest
+            arch: auto
+            artifact: wheels-macos
 
     steps:
       - uses: actions/checkout@v7
 
       - name: Set up QEMU
-        if: runner.os == 'Linux'
+        if: runner.os == 'Linux' && matrix.arch == 'aarch64'
         uses: docker/setup-qemu-action@v4
         with:
-          platforms: all
+          platforms: arm64
 
       - name: Build wheels
         uses: pypa/cibuildwheel@v4.3.1
         env:
-          # Configure cibuildwheel to build native archs, and some emulated ones
-          CIBW_ARCHS_LINUX: x86_64 aarch64
+          CIBW_ARCHS_LINUX: ${{ matrix.arch }}
           #CIBW_ARCHS_MACOS: x86_64 arm64 - macos is disabled for a moment
           CIBW_BUILD_VERBOSITY: 3  # Increase verbosity to see what's going on
           CIBW_REPAIR_WHEEL_COMMAND_LINUX: >  # Print additional info from auditwheel
@@ -49,7 +58,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v7
         with:
-          name: wheels-${{ matrix.os }}
+          name: ${{ matrix.artifact }}
           path: ./wheelhouse/*.whl
 
   build_sdist:
@@ -75,16 +84,11 @@ jobs:
       id-token: write
     if: github.event_name == 'release' && github.event.action == 'published'
     steps:
-      - name: Download wheels Ubuntu
+      - name: Download wheels
         uses: actions/download-artifact@v8
         with:
-          name: wheels-ubuntu-latest
-          path: dist
-
-      - name: Download wheels macOS
-        uses: actions/download-artifact@v8
-        with:
-          name: wheels-macos-latest
+          pattern: wheels-*
+          merge-multiple: true
           path: dist
 
       - name: Download sdist
