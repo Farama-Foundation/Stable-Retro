@@ -142,9 +142,6 @@ Platforms:
 - macOS 10.13 (High Sierra), 10.14 (Mojave)
 - Linux (manylinux1). Ubuntu 24.04 is recommended
 
-Python:
-- Python 3.11 through 3.14
-
 CPU with `SSE3` or better
 
 ## Citation
