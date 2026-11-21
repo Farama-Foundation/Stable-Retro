@@ -86,7 +86,7 @@ html_theme = "celshast"
 html_title = "Stable-Retro Documentation"
 html_baseurl = "https://stable-retro.farama.org"
 html_copy_source = False
-html_favicon = "_static/img/favicon.png"
+html_favicon = "_static/img/favicon.svg"
 html_theme_options = {
     "light_logo": "img/stable_retro_black.svg",
     "dark_logo": "img/stable_retro_white.svg",
