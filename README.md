@@ -170,3 +170,4 @@ List of papers mentioning stable-retro. If you want your paper to be added here 
 *	[Dissecting Discrete Soft Actor-Critic: Limitations and Principled Alternatives](https://arxiv.org/pdf/2509.09838)
 *	[StatePlay: State-Aware Game World Models for Mechanics-Consistent Generation](https://arxiv.org/html/2607.26754v1)
 *	[FootsiesGym: A Fighting Game Benchmark for TwoPlayer Zero-Sum Imperfect-Information Games](https://arxiv.org/pdf/2607.06514)
+*	[LiveAct: Towards Real-Time Multi-Agent World Models with Heterogeneous Action Interfaces](https://arxiv.org/abs/2610.29408)
