@@ -6,6 +6,7 @@ lastpage:
 
 ```{project-logo} _static/img/stable-retro-text.png
 :alt: Stable-Retro Logo
+:class: farama-black-logo-invert
 ```
 
 ```{project-heading}
