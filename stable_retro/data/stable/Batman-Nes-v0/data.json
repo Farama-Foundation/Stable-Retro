@@ -1,0 +1,40 @@
+{
+  "info": {
+    "level": {
+      "address": 136,
+      "type": "|u1"
+    },
+    "health": {
+      "address": 183,
+      "type": "|u1"
+    },
+    "lives": {
+      "address": 190,
+      "type": "|i1"
+    },
+    "ammo": {
+      "address": 184,
+      "type": "|u1"
+    },
+    "weapon": {
+      "address": 166,
+      "type": "|u1"
+    },
+    "y_screen": {
+      "address": 208,
+      "type": "|u1"
+    },
+    "y": {
+      "address": 209,
+      "type": "|u1"
+    },
+    "x_screen": {
+      "address": 211,
+      "type": "|u1"
+    },
+    "x": {
+      "address": 212,
+      "type": "|u1"
+    }
+  }
+}

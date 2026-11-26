@@ -710,6 +710,7 @@ Each table groups games by the emulator core that Stable-Retro uses for that sys
 | Baltron-Nes-v0 | stable |
 | BananaPrince-Nes-v0 | stable |
 | Barbie-Nes-v0 | stable |
+| Batman-Nes-v0 | stable |
 | BatmanReturns-Nes-v0 | stable |
 | BattleCity-Nes-v0 | stable |
 | Battletoads-Nes-v0 | stable |
@@ -845,6 +846,7 @@ Each table groups games by the emulator core that Stable-Retro uses for that sys
 | MegaMan2-Nes-v0 | stable |
 | MendelPalace-Nes-v0 | stable |
 | MetalStorm-Nes-v0 | stable |
+| Metroid-Nes-v0 | stable |
 | MickeyMousecapade-Nes-v0 | stable |
 | MightyBombJack-Nes-v0 | stable |
 | MightyFinalFight-Nes-v0 | stable |
@@ -923,6 +925,7 @@ Each table groups games by the emulator core that Stable-Retro uses for that sys
 | SuperArabian-Nes-v0 | stable |
 | SuperC-Nes-v0 | stable |
 | SuperMarioBros-Nes-v0 | stable |
+| SuperMarioBros2-Nes-v0 | stable |
 | SuperMarioBros2Japan-Nes-v0 | stable |
 | SuperMarioBros3-Nes-v0 | stable |
 | SuperPitfall-Nes-v0 | stable |

@@ -1,0 +1,19 @@
+{
+  "done": {
+    "variables": {
+      "lives": {
+        "op": "negative"
+      }
+    }
+  },
+  "reward": {
+    "variables": {
+      "level": {
+        "reward": 50.0
+      },
+      "x": {
+        "reward": 0.1
+      }
+    }
+  }
+}
