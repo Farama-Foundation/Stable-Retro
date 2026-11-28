@@ -1,0 +1,72 @@
+{
+  "info": {
+    "world": {
+      "address": 1589,
+      "type": "|u1"
+    },
+    "level": {
+      "address": 1329,
+      "type": "|u1"
+    },
+    "area": {
+      "address": 1330,
+      "type": "|u1"
+    },
+    "mode": {
+      "address": 1260,
+      "type": "|u1"
+    },
+    "player_state": {
+      "address": 80,
+      "type": "|u1"
+    },
+    "x_page": {
+      "address": 20,
+      "type": "|u1"
+    },
+    "x": {
+      "address": 40,
+      "type": "|u1"
+    },
+    "y_page": {
+      "address": 30,
+      "type": "|u1"
+    },
+    "y": {
+      "address": 50,
+      "type": "|u1"
+    },
+    "horizontal": {
+      "address": 236,
+      "type": "|u1"
+    },
+    "character": {
+      "address": 143,
+      "type": "|u1"
+    },
+    "health": {
+      "address": 1218,
+      "type": "|u1"
+    },
+    "lives": {
+      "address": 1261,
+      "type": "|u1"
+    },
+    "holding": {
+      "address": 156,
+      "type": "|u1"
+    },
+    "subspace": {
+      "address": 1576,
+      "type": "|u1"
+    },
+    "crystal": {
+      "address": 1205,
+      "type": "|u1"
+    },
+    "area_pages": {
+      "address": 1343,
+      "type": "|u1"
+    }
+  }
+}

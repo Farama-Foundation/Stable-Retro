@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+* add NES integrations for Metroid, Batman: The Video Game and Super Mario Bros. 2 (USA)
 * initialize unused save-state bytes for deterministic serialization and movie roundtrips
 
 ## 1.0.1

@@ -1,0 +1,68 @@
+{
+  "info": {
+    "routine": {
+      "address": 30,
+      "type": "|u1"
+    },
+    "area": {
+      "address": 116,
+      "type": "|u1"
+    },
+    "room_x": {
+      "address": 80,
+      "type": "|u1"
+    },
+    "room_y": {
+      "address": 79,
+      "type": "|u1"
+    },
+    "energy_lo": {
+      "address": 262,
+      "type": "|u1"
+    },
+    "energy_hi": {
+      "address": 263,
+      "type": "|u1"
+    },
+    "samus_state": {
+      "address": 768,
+      "type": "|u1"
+    },
+    "samus_half": {
+      "address": 780,
+      "type": "|u1"
+    },
+    "samus_y": {
+      "address": 781,
+      "type": "|u1"
+    },
+    "samus_x": {
+      "address": 782,
+      "type": "|u1"
+    },
+    "energy_tanks": {
+      "address": 26743,
+      "type": "|u1"
+    },
+    "items": {
+      "address": 26744,
+      "type": "|u1"
+    },
+    "missiles": {
+      "address": 26745,
+      "type": "|u1"
+    },
+    "missiles_max": {
+      "address": 26746,
+      "type": "|u1"
+    },
+    "kraid_status": {
+      "address": 26747,
+      "type": "|u1"
+    },
+    "ridley_status": {
+      "address": 26748,
+      "type": "|u1"
+    }
+  }
+}
